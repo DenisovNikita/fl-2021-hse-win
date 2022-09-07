@@ -10,7 +10,7 @@ We have a source file with code corresponding to the developed specific [syntax]
 
 ![](artefacts/program.png)
 
-As a result of the work of the parser and the parser, we get an abstract syntax tree
+As a result of the work of the parser and the syntax analyzer, we get an abstract syntax tree
 
 ![](artefacts/result.png)
 
