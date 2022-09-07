@@ -28,7 +28,7 @@ Then, as a result of the work of the parser and the parser, we get a meaningful 
 
 # Results
 
-As a result, a [presentation] was made (https://docs.google.com/presentation/d/1_xMy53HWEKPJ2RjHdZdF30-LSLk0g5KG1ioNPfFz7lk/edit?usp=sharing), which describes:
+As a result, a [presentation](https://docs.google.com/presentation/d/1_xMy53HWEKPJ2RjHdZdF30-LSLk0g5KG1ioNPfFz7lk/edit?usp=sharing) was made, which describes:
 
 * What was the task
 * How I solved it: what and why I chose the syntax, how I parsed
