@@ -2,7 +2,7 @@
 
 The project consisted in the development of a specific language syntax according to a given abstract syntax (details in [ConcreteSyntax.md](tasks/ConcreteSyntax.md)) and the implementation of a parser for it (details in [Parser.md](tasks/Parser.md))
 
-My project: language [L](lang/L.md) + особенность синтаксиса 3 (Soft keywords)
+My project: language [L](lang/L.md) + syntax feature 3 (Soft keywords)
 
 # Example programs work
 
