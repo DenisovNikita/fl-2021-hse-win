@@ -1,36 +1,36 @@
-# Парсер конкретного синтаксиса
+# Concrete syntax parser
 
-Проект заключался в разработке конкретного синтаксиса языка по заданному абстрактному синтаксису (подробности в [ConcreteSyntax.md](tasks/ConcreteSyntax.md)) и реализации для него синтаксического анализатора (подробности в [Parser.md](tasks/Parser.md))
+The project consisted in the development of a specific language syntax according to a given abstract syntax (details in [ConcreteSyntax.md](tasks/ConcreteSyntax.md)) and the implementation of a parser for it (details in [Parser.md](tasks/Parser.md))
 
-Мой проект: язык [L](lang/L.md) + особенность синтаксиса 3 (Soft keywords)
+My project: language [L](lang/L.md) + особенность синтаксиса 3 (Soft keywords)
 
-# Примеры работы программы
+# Example programs work
 
-Имеем исходный файл с кодом, соответствующим разработанному конкретному [синтаксису](syntax.txt)
+We have a source file with code corresponding to the developed specific [syntax](syntax.txt)
 
 ![](artefacts/program.png)
 
-В качестве результата работы парсера и синтаксического анализатора получаем абстрактное синтаксическое дерево
+As a result of the work of the parser and the parser, we get an abstract syntax tree
 
 ![](artefacts/result.png)
 
-Если же исходный файл с кодом не соответствует [синтаксису](syntax.txt)
+If the source file with the code does not match the [syntax](syntax.txt)
 
 ![](artefacts/wrong_program.png)
 
-То в качестве результата работы парсера и синтаксического анализатора получаем содержательное сообщение об ошибке
+Then, as a result of the work of the parser and the parser, we get a meaningful error message
 
 ![](artefacts/error.png)
 
-# Запуск
+# Launch
 
-   * Тесты находятся в папке [parser/tests/](parser/tests/). Сам парсер собран в бинарник `parser/parser`. Он принимает на вход один параметр — путь до файла где находится тест. Скрипт [parser/run.sh](parser/run.sh) запускает все тесты. Для добавления тестов достаточно написать тест в файл и добавить его в папку tests/ с расширением `.in`
+   * The tests are located in the [parser/tests/](parser/tests/) folder. The parser itself is compiled into the `parser/parser` binary. It takes one parameter as input - the path to the file where the test is located. The script [parser/run.sh](parser/run.sh) runs all tests. To add tests, just write a test to a file and add it to the tests/ folder with the `.in` extension
 
-# Результат
+# Results
 
-В качестве результата сделана [презентация](https://docs.google.com/presentation/d/1_xMy53HWEKPJ2RjHdZdF30-LSLk0g5KG1ioNPfFz7lk/edit?usp=sharing), в которой описано:
+As a result, a [presentation] was made (https://docs.google.com/presentation/d/1_xMy53HWEKPJ2RjHdZdF30-LSLk0g5KG1ioNPfFz7lk/edit?usp=sharing), which describes:
 
-* В чем состояла задача
-* Как я ее решал: какой и почему выбрал синтаксис, как парсил
-* Какие сложности возникли и как я их преодолел
-* Что конкретно я сделал
+* What was the task
+* How I solved it: what and why I chose the syntax, how I parsed
+* What difficulties arose and how I overcame them
+* What exactly did I do
